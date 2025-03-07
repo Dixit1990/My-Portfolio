@@ -1,0 +1,176 @@
+{% include "header.html" %}
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who I am</a></li>
+							<li><a href="#two">What I do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>My Personal Space</h1>
+							<p>
+								Just another fine responsive site designed by <a href="http://html5up.net">SAGAR DIXIT</a><br />
+							</p>
+							<ul class="actions">
+								<li><a href="{{ url_for('generic') }}" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="static/images/pic00.jpeg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Cherai Beach, Kochi</h2>
+									<p>Cherai Beach is a 15-kilometer stretch of golden sand beach in Kerala, India. It's located on Vypin Island, a suburb of Kochi.</p>
+									<ul class="actions">
+										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="static/images/pic02.jpeg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Munnar, Kerala</h2>
+									<p>A hill station and former resort for the British Raj elite, it's surrounded by rolling hills dotted with tea plantations established in the late 19th century.</p>
+									<ul class="actions">
+										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="static/images/pic03.jpeg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Lakkom Waterfalls</h2>
+									<p>Also known as Lakkam Waterfalls, is a tourist attraction located near Marayoor in the Idukki district of Kerala. These falls are part of the Eravikulam stream, which is a part of Eravikulam National Park and is one of the major tributaries of the Pambar River</p>
+									<ul class="actions">
+										<li><a href="{{ url_for('generic') }}" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What I do</h2>
+							<p>Exploring the heart and soul of our Incredible INDIA.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Content Creator</h3>
+									<p>creates content for an audience, such as written, video, audio, or graphical content. Can work for websites, social media, and video & image platforms.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Part-Time Traveller</h3>
+									<p>Take time out of my full time job to roam around the country exploring the culture and traditions of different states and people.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Web Designer</h3>
+									<p>A skill that I am mastering myself day by day & can help you fulfill your requirements related to website designing.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>A True Indian</h3>
+									<p>Doing everything that is not at all against the laws of the country, serving the nation in my own way of respecting it.</p>
+								</section>
+								</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>If you want to share your personal experiences and hear about mine, don't forget to fill up the form below. Will get in touch with you shortly.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="/data">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="/home" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road <br />
+											Coimbatoore, TN 641401<br />
+											INDIA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">dixitsagar786@gmail.com</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(+91)-7760542546</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Sagar Dixit. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+{% include "footer.html" %}

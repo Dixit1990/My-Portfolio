@@ -3,9 +3,7 @@ import requests
 from twilio.rest import Client
 
 
-account_sid = "ACf077989d499141996ae93ea6bb313841"
-auth_token = "5aad5d7cd7f078b7896af969bf952212"
-twilio_number = "+15137904227"
+
 
 app = Flask(__name__)
 
